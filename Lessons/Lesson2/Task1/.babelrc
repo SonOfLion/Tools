@@ -5,6 +5,12 @@
     //     "@babel/plugin-transform-template-literals"
     // ]
     "preset":[
-        "@babel/preset-env"
+        [
+            "@babel/preset-env",
+            {
+               "targets" : "> 1%" 
+            }
+        ]
+        
     ]
 }
