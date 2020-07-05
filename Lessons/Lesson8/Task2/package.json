@@ -20,6 +20,7 @@
         "css-loader": "^3.6.0",
         "file-loader": "^6.0.0",
         "jest": "^26.1.0",
+        "mini-css-extract-plugin": "^0.9.0",
         "npm": "^6.14.5",
         "run-all": "^1.0.1",
         "sass": "^1.26.9",
