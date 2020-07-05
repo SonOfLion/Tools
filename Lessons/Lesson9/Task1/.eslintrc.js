@@ -9,8 +9,11 @@ module.exports = {
         ecmaVersion: 10,
         sourceType: 'module'
     },
-    globals: {
-        document: true,
-        alert: true
-    }
+    env: {
+        browser: true,
+    },
+    // globals: {
+    //     document: true,
+    //     alert: true
+    // }
 };
