@@ -9,7 +9,7 @@ module.exports = {
     module: {
         rules: [{
                 test: /\.s?css$/i,
-                use: [MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader']
+                use: ['style-loader', 'css-loader', 'sass-loader']
             },
             {
                 test: /\.(png|jpg|gif)$/i,
@@ -33,6 +33,8 @@ module.exports = {
         })
     ],
     devServer: {
-        port: 9000
+        port: 9000,
+        hot: true,
+
     }
 };
