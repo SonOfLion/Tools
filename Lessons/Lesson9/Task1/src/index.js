@@ -19,3 +19,5 @@ console.log(profile);
 // if (num === 18) {
 //   alert('H1'); eslint-disable-line no-console
 // }
+//eslint disable
+//eslint enable
